@@ -10,9 +10,9 @@ export default function Home() {
             <CustomToast />
             <div id='Home'>
                 <div id='profile'>
-                    <img src="https://pbs.twimg.com/profile_images/1654175128777883648/YmNmAJlX_400x400.jpg"></img>
-                    <h1>Hasan Marhoon</h1>
-                    <h4> Software Engineer</h4>
+                    <div><img src="https://pbs.twimg.com/profile_images/1654175128777883648/YmNmAJlX_400x400.jpg"></img></div>
+                    <div><h1>Hasan Marhoon</h1></div>
+                    <div><h4> Software Engineer</h4></div>
                     <hr />
 
                 </div>
@@ -31,28 +31,28 @@ export default function Home() {
                     <p>
                         Currently seeking an <span className="highlight" >internship or training opportunity </span> to further enhance my skills, get mentorship from experienced professionals in the field, build a network and become a standout candidate in the future.
                     </p>
+                </div>
+                <div id='skills'>
+                    <h3> <span className='highlight'>Self evaluation in software</span></h3>
                     <hr />
-                    <div id='skills'>
-                        <h3> <span className='highlight'>Self evaluation in software</span></h3>
-                        <ProgressBarComponent skill='Java' now='90' label='90%' />
-                        <ProgressBarComponent skill='JavaScript' now='90' label='90%' />
-                        <ProgressBarComponent skill='Python' now='85' label='85%' />
-                        <ProgressBarComponent skill='HTML & CSS' now='95' label='95%' />
-                        <ProgressBarComponent skill='Bootstrap' now='70' label='70%' />
-                        <ProgressBarComponent skill='NodeJS' now='85' label='85%' />
-                        <ProgressBarComponent skill='Django' now='75' label='75%' />
-                        <ProgressBarComponent skill='SpringBoot' now='75' label='75%' />
-                        <ProgressBarComponent skill='React' now='75' label='75%' />
-                        <ProgressBarComponent skill='Express' now='85' label='85%' />
-                        <ProgressBarComponent skill='AWS Development' now='80' label='80%' />
-                        <ProgressBarComponent skill='PHP' now='60' label='60%' />
-                        <ProgressBarComponent skill='PostgreSQL' now='85' label='85%' />
-                        <ProgressBarComponent skill='MongoDB' now='85' label='85%' />
-                        <ProgressBarComponent skill='Terminal' now='70' label='70%' />
-                        <ProgressBarComponent skill='JQuery' now='80' label='80%' />
-                        <ProgressBarComponent skill='Git' now='90' label='90%' />
-                        <ProgressBarComponent skill='Enterprise Architect' now='90' label='90%' />
-                    </div>
+                    <ProgressBarComponent skill='Java' now='90' label='90%' />
+                    <ProgressBarComponent skill='JavaScript' now='90' label='90%' />
+                    <ProgressBarComponent skill='Python' now='85' label='85%' />
+                    <ProgressBarComponent skill='HTML & CSS' now='95' label='95%' />
+                    <ProgressBarComponent skill='Bootstrap' now='70' label='70%' />
+                    <ProgressBarComponent skill='NodeJS' now='85' label='85%' />
+                    <ProgressBarComponent skill='Django' now='75' label='75%' />
+                    <ProgressBarComponent skill='SpringBoot' now='75' label='75%' />
+                    <ProgressBarComponent skill='React' now='75' label='75%' />
+                    <ProgressBarComponent skill='Express' now='85' label='85%' />
+                    <ProgressBarComponent skill='AWS Development' now='80' label='80%' />
+                    <ProgressBarComponent skill='PHP' now='60' label='60%' />
+                    <ProgressBarComponent skill='PostgreSQL' now='85' label='85%' />
+                    <ProgressBarComponent skill='MongoDB' now='85' label='85%' />
+                    <ProgressBarComponent skill='Terminal' now='70' label='70%' />
+                    <ProgressBarComponent skill='JQuery' now='80' label='80%' />
+                    <ProgressBarComponent skill='Git' now='90' label='90%' />
+                    <ProgressBarComponent skill='Enterprise Architect' now='90' label='90%' />
                 </div>
                 <div id='home-bottom'>
                     <h2><span className='highlight'>Languages</span></h2>
