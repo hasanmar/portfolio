@@ -34,7 +34,7 @@ export default function CustomTab() {
                                 </p>
                                 <ol>
                                     <li>
-                                        <span className='highlight'>HTML, CSS & JavaScript:</span> Since not all of the students enrolled have experience or studied CS, we started with the basics of web development. That is not to say that this module wasn't beneficial for me, as I was introduced to <span className='highlight'>JQuery</span> for the first time, and practiced my CSS skills (which i very much needed, sadly)
+                                        <span className='highlight'>HTML, CSS & JavaScript:</span> Since not all of the students enrolled have experience or studied CS, we started with the basics of web development. That is not to say that this module wasn't beneficial for me, as I was introduced to <span className='highlight'>JQuery</span> for the first time, and practiced my CSS skills (which i very much needed, sadly).
                                     </li>
                                     <li>
                                         <span className='highlight'>NodeJS, Express and mongoose:</span> I was already familiar with these technologies, however I got to experiment with new libraries that I hadn't used prior to joining general assembly, such as mongoose, Dotenv etc.
@@ -109,16 +109,16 @@ export default function CustomTab() {
                                 </p>
                                 <ol>
                                     <li>
-                                        <span className='highlight'>Designing a system architecture:</span>
+                                        <span className='highlight'>Designing a system architecture:</span> We worked on the project from scratch, we created the system architecture with little to no knowledge initially, but we had to change it as we were implementing the system as we were acquiring more knowledge relating to cloud development and the different AWS services. <span className='highlight'>*</span><small>The final architecture can be found in the project poster below</small>
                                     </li>
                                     <li>
-                                        <span className='highlight'>AWS services:</span>
+                                        <span className='highlight'>AWS services:</span> A combination of AWS services were used to meet the client's requirements. Some of the services that were used in creating the virtual queueing system include SQS, SNS, API Gateway and perhaps most importantly Cloudwatch to check logs and debug.
                                     </li>
                                     <li>
-                                        <span className='highlight'>Agile development:</span>
+                                        <span className='highlight'>Agile development:</span> During our time at AWS, we distributed our tasks amongst ourselves and used Teams to keep track of each task and its status. We had weekly standups with three AWS consultants, updating them about our progression and relaying any questions we had. Tasks were not moved to the 'Completed' tab unless it was checked and approved by one of the consultants.
                                     </li>
                                     <li>
-                                        <span className='highlight'>Presentation:</span>
+                                        <span className='highlight'>Presentation:</span> Once we were done with the project and the AWS consultants approved it, we presented our system at Bahrain Polytechnic. There were over 50 attendees, including the university's CEO, Tamkeen and BAC representatives, potential employers and investors.
                                     </li>
                                 </ol>
                                 <div id='aws-buttons'>

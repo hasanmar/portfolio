@@ -18,8 +18,7 @@ export default function CustomToast() {
       <Col xs={6}>
         <ToastContainer
           className="p-3"
-          
-          style={{position: 'fixed', top:'2.5em', right:'0', '--bs-toast-max-width':'300px'}}
+          style={{ position: 'fixed', top: '2.5em', right: '0.3em', '--bs-toast-max-width': '300px', textAlign: 'center' }}
         >
           <Toast onClose={() => setShow(false)} show={show} delay={100000} autohide animation bg='dark'>
             <Toast.Header>
@@ -28,9 +27,9 @@ export default function CustomToast() {
                 className="rounded me-2"
                 alt=""
               />
-              <strong className="me-auto">ALERT</strong>
+              <strong className="me-auto">Don't forget to get in touch!</strong>
             </Toast.Header>
-            <Toast.Body><strong>Don't forget to get in touch!</strong>
+            <Toast.Body>
               <p>
                 <span className='highlight'>hasanmarhoon98@gmail.com</span>
               </p><p>

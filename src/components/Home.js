@@ -10,7 +10,7 @@ export default function Home() {
             <CustomToast />
             <div id='Home'>
                 <div id='profile'>
-                    <div><img src="https://pbs.twimg.com/profile_images/1654175128777883648/YmNmAJlX_400x400.jpg"></img></div>
+                    <div><img src={require('../docs/IMG_4049.jpg')} /></div>
                     <div><h1>Hasan Marhoon</h1></div>
                     <div><h4> Software Engineer</h4></div>
                     <hr />
@@ -26,7 +26,7 @@ export default function Home() {
                     </p>
                     <p>
                         I have developed my soft skills over the years, namely my <span className="highlight" >communication, collaboration and self management skills.</span> Most of the projects that I have worked on in the past year or so have been collaborative projects.
-                        Some critical software engineer soft skills that I enhanced while working on collaborative projects were my ability to read documentation and teach myself frameworks and programming languages as well as reading, understanding and debugging other people's code
+                        Some critical software engineer soft skills that I enhanced while working on collaborative projects were my ability to read documentation and teach myself frameworks and programming languages as well as reading, understanding and debugging other people's code.
                     </p>
                     <p>
                         Currently seeking an <span className="highlight" >internship or training opportunity </span> to further enhance my skills, get mentorship from experienced professionals in the field, build a network and become a standout candidate in the future.

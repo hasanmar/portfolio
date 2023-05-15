@@ -1,14 +1,22 @@
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import resume from '../docs/HasanMarhoonCV.pdf'
 
 
 export default function Navigation() {
 
-    
+    const [menuOpen, setMenuOpen] = useState(false)
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen)
+    }
+
+    const handleClose = () => setMenuOpen(false)
+
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top' expanded={menuOpen}>
             <Container>
                 <Navbar.Brand id='navbar-title'>
                     <Link to="/">
@@ -18,15 +26,18 @@ export default function Navigation() {
                         <span className='title'> <strong>Hasan Marhoon </strong> </span>
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={toggleMenu} />
+                <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className='me-auto'></Nav>
                     <Nav id='nav'>
                         <Nav>
-                            <Link to="/">About me</Link>
+                            <Link to="/" onClick={toggleMenu}>About me</Link>
                         </Nav>
                         <Nav>
-                            <Link to="/experience">Education & Practical expreience</Link>
+                            <Link to="/experience" onClick={toggleMenu}>Education & Practical expreience</Link>
+                        </Nav>
+                        <Nav>
+                            <Link to={resume} rel="noopener noreferrer" target="_blank">Resume</Link>
                         </Nav>
                     </Nav>
                 </Navbar.Collapse>
