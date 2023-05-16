@@ -37,7 +37,7 @@ export default function Navigation() {
                             <Link to="/experience" onClick={toggleMenu}>Education & Practical expreience</Link>
                         </Nav>
                         <Nav>
-                            <Link to={resume} rel="noopener noreferrer" target="_blank">Resume</Link>
+                            <Link to={resume} rel="noopener noreferrer" target="_blank" onClick={toggleMenu}>Resume</Link>
                         </Nav>
                     </Nav>
                 </Navbar.Collapse>

@@ -4,8 +4,12 @@ import Accordion from 'react-bootstrap/Accordion';
 import { Button } from 'react-bootstrap';
 import poster from '../docs/Poster.pdf'
 import thesis from '../docs/thesis.pdf'
+import { useEffect } from 'react';
 
 export default function CustomTab() {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return (
         <>
             <Tabs
@@ -139,7 +143,15 @@ export default function CustomTab() {
                                 <small>June 2022 - August 2022</small>
                                 <hr />
                                 <p>
-
+                                    My first ever exposure to a real work environment in the field was as an intern software engineer at Citi Bank Bahrain. During the two month program, we were placed under senior developers who guided and mentored us throughout, assigned us a collaborative project and reviewed our progress throughout. 
+                                </p>
+                                <p>
+                                    This was my first ever exposure to API's and where my career preference changed. I was assigned a project alongside another intern, where we had to develop a <span className='highlight'>FX bank API</span>, abiding to industry standards in security, design and code. We created application in <span className='highlight'>Java and SpringBoot</span>, collaborated using Github and Microsoft Teams and had weekly review sessions to track our progress and expand the scope.
+                                    Due to time restrictions, we were unable to expose our API to a frontend, so all testing and presentations were done using Postman.
+                                </p>
+                                <p>
+                                    Although I have embarked in other experiences after this, to this day this has been my favorite experience. It was very challenging due to time restrictions and the fact that nobody had the time to spoonfeed us everything, and so most of the work done was through research, self studying and helping each other out.
+                                    </p><p>At the end of the two month internship, we got feedback from three seniors who have been watching us closely, they told us exactly what we need to improve, gave us our props on the hard work we did and what we achieved and provided advice on how to move forward in our career to match what is expected from us in the industry.
                                 </p>
                             </Accordion.Body>
                         </Accordion.Item>

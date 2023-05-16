@@ -2,6 +2,7 @@ body {
     font-size: 1em;
     color: grey;
     font-weight: bolder;
+    padding-top: env(safe-area-inset-top);
 }
 
 .title {
@@ -12,6 +13,22 @@ body {
     color: gray;
     font-size: 1em;
     text-decoration: none;
+}
+.scroll img{
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+}
+.scrollBtn {
+    border-color: transparent;
+    background: transparent;
+    position: fixed;
+    bottom: 8%;
+    right: 5%;
+    z-index: 50;
+    cursor: pointer;
+    padding: 0;
 }
 
 #nav a:hover {

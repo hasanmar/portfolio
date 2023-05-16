@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProgressBarComponent from "./ProgressBar";
 import CustomToast from "./CustomToast";
+import Scroll from "./Scroll";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     return (
         <>
             <CustomToast />
+            <Scroll />
             <div id='Home'>
                 <div id='profile'>
                     <div><img src={require('../docs/IMG_4049.jpg')} /></div>
