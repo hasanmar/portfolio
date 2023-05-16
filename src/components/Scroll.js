@@ -7,7 +7,7 @@ export default function Scroll() {
 
     useEffect(() => {
         const scrollButton = () => {
-            window.scrollY > 300 ? setShowButton(true) : setShowButton(false)
+            window.scrollY > 200 ? setShowButton(true) : setShowButton(false)
         }
         window.addEventListener('scroll', scrollButton)
 
